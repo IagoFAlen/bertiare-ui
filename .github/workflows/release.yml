@@ -21,7 +21,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
       - run: npm ci
-      - name: Publish to NPM
+      - name: Publish Bertiare-ui to NPM
         id: changesets
         uses: changesets/action@v1
         with:
