@@ -101,4 +101,6 @@ export const colors = {
   olive500: '#B7B89D',
   olive700: '#7A7E58',
   olive900: '#424429',
+
+  publishtest: '#469c82',
 }
