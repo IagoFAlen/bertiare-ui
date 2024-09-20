@@ -1,0 +1,18 @@
+{
+  "name": "@bertiare-ui/tokens",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "Iago Figueira",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "@bertiare-ui/ts-config": "*"
+  }
+}
