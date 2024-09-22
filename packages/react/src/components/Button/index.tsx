@@ -5,7 +5,7 @@ import { ButtonContainer } from "../../styles/pages/button"
 export function Button(props: ButtonProps) {
     return(
         <>
-            <ButtonContainer {...props}>{props.children}</ButtonContainer>
+            <ButtonContainer {...props} css={{ '--fit': props.fit }}>{props.children}</ButtonContainer>
         </>
     )
 }

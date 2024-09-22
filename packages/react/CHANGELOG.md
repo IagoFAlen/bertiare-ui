@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.2
+
+### Patch Changes
+
+- Adjusted fix variable for button component
+
 ## 1.2.1
 
 ### Patch Changes
