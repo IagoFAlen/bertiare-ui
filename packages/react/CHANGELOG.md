@@ -1,5 +1,19 @@
 # @bertiare-ui/react
 
+## 1.2.1
+
+### Patch Changes
+
+- Adjusted Avatar sizes with variants
+
+## 1.2.0
+
+### Minor Changes
+
+- fe6d1b5: Added fix adjust to components
+- Added new fix to search component
+- fe6d1b5: Added fix adjust to components
+
 ## 1.1.1
 
 ### Patch Changes

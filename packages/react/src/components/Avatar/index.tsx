@@ -7,12 +7,11 @@ export function Avatar(props: AvatarProps){
     return(
         <>
             { 
-                props.src ? <AvatarContainer {...props} src={props.src} alt=""/> : (
-                    <DefaultAvatar> 
+                props.src ? <AvatarContainer {...props} src={props.src} size={props.size} alt=""/> : (
+                    <DefaultAvatar size={props.size}> 
                         <FaUser size={props.size}/> 
                     </DefaultAvatar>
                 )
-            
             }
         </>
     )

@@ -6,6 +6,30 @@ export const AvatarContainer = styled('img', {
     borderRadius: '$full',
     cursor: 'pointer',
 
+    variants: {
+        size: {
+            large: {
+                width: '$16',
+                height: '$16'
+            },
+            medium: {
+                width: '$12',
+                height: '$12'
+            },
+            small: {
+                width: '$10',
+                height: '$10'
+            },
+            xsmall: {
+                width: '$8',
+                height: '$8'
+            },
+            xxsmall: {
+                width: '$6',
+                height: '$6'
+            }
+        }
+    }
 })
 
 export const DefaultAvatar = styled('div', {
@@ -18,4 +42,28 @@ export const DefaultAvatar = styled('div', {
     alignItems: 'center',
     justifyContent: 'center',
 
+    variants: {
+        size: {
+            large: {
+                width: '$16',
+                height: '$16'
+            },
+            medium: {
+                width: '$12',
+                height: '$12'
+            },
+            small: {
+                width: '$10',
+                height: '$10'
+            },
+            xsmall: {
+                width: '$8',
+                height: '$8'
+            },
+            xxsmall: {
+                width: '$6',
+                height: '$6'
+            }
+        }
+    }
 })
