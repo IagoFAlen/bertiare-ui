@@ -4,7 +4,7 @@ export const SearchContainer = styled('div', {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-
+    width: 'var(--fit)',
     fontSize: '$sm',
     fontWeight: '$regular',
     borderRadius: '$lg',
@@ -17,6 +17,7 @@ export const SearchContainer = styled('div', {
 export const SearchBox = styled('input', {
     all: 'unset',
     marginRight: '$1',
+    width: '100%',
 })
 
 export const IconContainer = styled('div', {

@@ -6,8 +6,8 @@ import { FaSearch } from "react-icons/fa";
 export function Search(props: SearchProps) {
     return(
         <>
-            <SearchContainer {...props}>
-                <SearchBox placeholder={props.placeholder}/>
+            <SearchContainer {...props} css={{ '--fit': props.fit }}>
+                <SearchBox placeholder={props.placeholder} />
                 <IconContainer>
                     <FaSearch />
                 </IconContainer>
