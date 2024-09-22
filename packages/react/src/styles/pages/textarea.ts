@@ -6,6 +6,8 @@ export const TextAreaContainer = styled('textarea', {
   borderRadius: '$sm',
   boxSizing: 'border-box',
   border: '2px solid $inputBackground',
+  width: 'var(--fit)',
+
 
   fontSize: '$xs',
   fontWeight: '$regular',

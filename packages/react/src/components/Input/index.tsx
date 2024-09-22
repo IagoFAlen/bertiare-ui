@@ -5,7 +5,7 @@ import { InputProps } from "./types";
 export function Input(props: InputProps) {
     return(
         <>
-            <InputContainer {...props} />
+            <InputContainer {...props} css={{ '--fit': props.fit }}/>
         </>
     )
 }

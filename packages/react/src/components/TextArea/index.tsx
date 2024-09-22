@@ -5,7 +5,7 @@ import { TextAreaProps } from "./types";
 export function TextArea(props: TextAreaProps){
     return(
         <>
-            <TextAreaContainer {...props} />
+            <TextAreaContainer {...props} css={{ '--fit': props.fit }}/>
         </>
     )
 }
