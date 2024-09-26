@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.3
+
+### Patch Changes
+
+- Added xlarge size to Avatar component
+
 ## 1.2.2
 
 ### Patch Changes
