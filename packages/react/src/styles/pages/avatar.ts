@@ -8,6 +8,11 @@ export const AvatarContainer = styled('img', {
 
     variants: {
         size: {
+            xxlarge: {
+                width: '$30',
+                height: '$30',
+            },
+
             xlarge: {
                 width: '$20',
                 height: '$20',
@@ -49,6 +54,11 @@ export const DefaultAvatar = styled('div', {
 
     variants: {
         size: {
+            xxlarge: {
+                width: '$30',
+                height: '$30',
+            },
+            
             xlarge: {
                 width: '$20',
                 height: '$20',
