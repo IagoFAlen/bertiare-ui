@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.5
+
+### Patch Changes
+
+- Added new size to Avatar
+
 ## 1.2.4
 
 ### Patch Changes
