@@ -72,7 +72,7 @@ export const ButtonContainer = styled('button', {
                
                 '&:hover': {
                     color: '$danger',
-                    background: '$danger',
+                    background: '$elementInteractionBackground',
                 },
 
                 '&:disabled': {
