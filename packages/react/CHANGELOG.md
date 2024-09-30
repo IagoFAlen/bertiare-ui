@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.11
+
+### Patch Changes
+
+- Fixed button variant
+
 ## 1.2.10
 
 ### Patch Changes

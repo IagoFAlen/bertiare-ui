@@ -76,12 +76,13 @@ export const ButtonContainer = styled('button', {
                 },
 
                 '&:disabled': {
+                    border: '$muted',
                     color: '$mutedInverse',
                     background: '$mutedInverse',
                     
                     '&:hover': {
                         color: '$mutedInverse',
-                        background: '$mutedInverse',
+                        background: '$elementInteractionBackground',
                     }
                 },
             }
