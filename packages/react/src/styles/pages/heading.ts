@@ -29,6 +29,7 @@ export const HeadingContainer = styled('h2', {
         
         decoration: {
             highlight: {
+                lineHeight: '$shorter',
                 position: 'relative',
 
                 '&::after': {

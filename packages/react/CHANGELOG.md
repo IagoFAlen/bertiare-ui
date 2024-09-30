@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.7
+
+### Patch Changes
+
+- Adjusted line height to highlight variant
+
 ## 1.2.6
 
 ### Patch Changes
