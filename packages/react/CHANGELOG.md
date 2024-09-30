@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.8
+
+### Patch Changes
+
+- Adjusted minimum size to Heading Props
+
 ## 1.2.7
 
 ### Patch Changes
