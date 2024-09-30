@@ -21,6 +21,33 @@ export const HeadingContainer = styled('h2', {
             },
             xxsmall: {
                 fontSize: '$md',
+            },
+            minimum: {
+                fontSize: '$sm',
+            }
+        },
+        
+        decoration: {
+            highlight: {
+                position: 'relative',
+
+                '&::after': {
+                    content: '""',
+                    position: 'absolute',
+                    left: 0,
+                    bottom: '-2px',
+                    width: '100%',
+                    height: '1px',
+                    backgroundColor: '$text',
+                    transform: 'scaleX(0)',
+                    transformOrigin: 'right',
+                    transition: 'transform 0.2s ease-in-out',
+                },
+
+                '&:hover::after': {
+                    transform: 'scaleX(1)',
+                    transformOrigin: 'left',
+                },
             }
         }
     }

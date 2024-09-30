@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.6
+
+### Patch Changes
+
+- Added variants to Heading component
+
 ## 1.2.5
 
 ### Patch Changes
