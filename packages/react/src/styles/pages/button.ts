@@ -65,6 +65,26 @@ export const ButtonContainer = styled('button', {
                     }
                 },
             },
+            danger: {
+                border: '1.2px solid $danger',
+                color: '$textInverse',
+                background: '$danger',
+               
+                '&:hover': {
+                    color: '$danger',
+                    background: '$danger',
+                },
+
+                '&:disabled': {
+                    color: '$mutedInverse',
+                    background: '$mutedInverse',
+                    
+                    '&:hover': {
+                        color: '$mutedInverse',
+                        background: '$mutedInverse',
+                    }
+                },
+            }
         }
     }
 

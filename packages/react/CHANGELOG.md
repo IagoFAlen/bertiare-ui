@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.9
+
+### Patch Changes
+
+- Added danger variant to button
+
 ## 1.2.8
 
 ### Patch Changes
