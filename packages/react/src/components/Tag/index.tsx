@@ -6,7 +6,7 @@ export function Tag(props: TagProps){
     return(
         <>
             <TagContainer {...props}>
-                <TagTitle>{props.title}</TagTitle>
+                <TagTitle weight={props.weight}>{props.title}</TagTitle>
             </TagContainer>
         </>
     )

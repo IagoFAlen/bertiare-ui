@@ -38,13 +38,15 @@ export const TagContainer = styled('div', {
                 fontSize: '$sm',
             }
         },
+    }
+})
+
+export const TagTitle = styled('span', {
+    variants: {
         weight: {
             bold: {
                 fontWeight: '$bold',
             }
         }
     }
-
 })
-
-export const TagTitle = styled('span', {})

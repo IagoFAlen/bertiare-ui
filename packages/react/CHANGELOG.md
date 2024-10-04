@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.13
+
+### Patch Changes
+
+- Adjusted bold to tag title
+
 ## 1.2.12
 
 ### Patch Changes
