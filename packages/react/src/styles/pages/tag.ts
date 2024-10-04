@@ -20,25 +20,27 @@ export const TagContainer = styled('div', {
                 color: '$successSaleHighlight',
                 borderColor: '$successSaleHighlight',
 
-                padding: '$1 $4',
-                fontSize: '$sm',
-
             },
             warning: {
                 background: '$warningSale',
                 color: '$warningSaleHighlight',
                 borderColor: '$warningSaleHighlight',
-
-                padding: '$1 $4',
-                fontSize: '$sm',
             },
             danger: {
                 background: '$dangerSale',
                 color: '$dangerSaleHighlight',
                 borderColor: '$dangerSaleHighlight',
-                
+            }
+        },
+        size: {
+            small: {
                 padding: '$1 $4',
                 fontSize: '$sm',
+            }
+        },
+        weight: {
+            bold: {
+                fontWeight: '$bold',
             }
         }
     }

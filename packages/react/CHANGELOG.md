@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.12
+
+### Patch Changes
+
+- Added size and weight variants to tag component
+
 ## 1.2.11
 
 ### Patch Changes
