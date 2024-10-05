@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.14
+
+### Patch Changes
+
+- Upgrade tokens
+
 ## 1.2.13
 
 ### Patch Changes

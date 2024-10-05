@@ -1,5 +1,11 @@
 # @bertiare-ui/tokens
 
+## 1.1.3
+
+### Patch Changes
+
+- Upgrade tokens
+
 ## 1.1.2
 
 ### Patch Changes
