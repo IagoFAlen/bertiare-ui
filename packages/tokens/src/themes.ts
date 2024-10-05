@@ -36,6 +36,8 @@ export const themes = {
         mutedInverse: colors.gray200,
         mutedIcon: colors.gray100,
 
+        opacityBackground: colors.opacityBackgroundLight,
+
         inputBackground: colors.white,
         checkboxHover: colors.gray500,
 
@@ -82,6 +84,7 @@ export const themes = {
 
         mutedIcon: colors.gray700,
 
+        opacityBackground: colors.opacityBackgroundDark,
         inputBackground: colors.black,
         checkboxHover: colors.gray400,
 
