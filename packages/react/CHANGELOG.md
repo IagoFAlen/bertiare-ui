@@ -1,5 +1,17 @@
 # @bertiare-ui/react
 
+## 1.2.16
+
+### Patch Changes
+
+- Added new weight to text component
+
+## 1.2.15
+
+### Patch Changes
+
+- Added bold weight to Text component
+
 ## 1.2.14
 
 ### Patch Changes

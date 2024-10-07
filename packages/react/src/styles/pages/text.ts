@@ -1,3 +1,4 @@
+import { FaWeight } from "react-icons/fa";
 import { styled } from "..";
 
 export const TextContainer = styled('p', {
@@ -18,6 +19,11 @@ export const TextContainer = styled('p', {
             },
             xsmall: {
                 fontSize: '$xs',
+            }
+        },
+        weight: {
+            bold: {
+                fontWeight: '$bold',
             }
         }
     }
