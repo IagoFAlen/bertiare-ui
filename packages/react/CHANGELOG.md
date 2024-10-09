@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.21
+
+### Patch Changes
+
+- Added new weight variant to inputs
+
 ## 1.2.20
 
 ### Patch Changes

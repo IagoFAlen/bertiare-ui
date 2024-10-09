@@ -35,6 +35,11 @@ export const InputContainer = styled('input', {
             danger: {
                 borderColor: '$danger',
             }
+        },
+        weight: {
+            bold: {
+                fontWeight: '$bold',
+            }
         }
     }
 })

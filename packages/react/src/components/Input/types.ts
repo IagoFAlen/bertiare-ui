@@ -5,4 +5,5 @@ export interface InputProps extends ComponentProps<typeof InputContainer> {
     fit?: string,
     placeholder?: string,
     color?: 'success' | 'warning' | 'danger',
+    weight?: 'bold',
 }
