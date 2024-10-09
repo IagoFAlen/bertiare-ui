@@ -27,13 +27,13 @@ export const InputContainer = styled('input', {
     variants: {
         color: {
             success: {
-                color: '$success',
+                borderColor: '$success',
             },
             warning: {
-                color: '$warning',
+                borderColor: '$warning',
             },
             danger: {
-                color: '$danger',
+                borderColor: '$danger',
             }
         }
     }

@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.19
+
+### Patch Changes
+
+- Fixed border color Input variants
+
 ## 1.2.18
 
 ### Patch Changes
