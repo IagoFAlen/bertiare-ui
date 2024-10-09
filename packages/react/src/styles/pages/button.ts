@@ -65,6 +65,48 @@ export const ButtonContainer = styled('button', {
                     }
                 },
             },
+            success: {
+                border: '1.2px solid $success',
+                color: '$textInverse',
+                background: '$success',
+               
+                '&:hover': {
+                    color: '$success',
+                    background: '$elementInteractionBackground',
+                },
+
+                '&:disabled': {
+                    border: '$muted',
+                    color: '$mutedInverse',
+                    background: '$mutedInverse',
+                    
+                    '&:hover': {
+                        color: '$mutedInverse',
+                        background: '$elementInteractionBackground',
+                    }
+                },
+            },
+            warning: {
+                border: '1.2px solid $warning',
+                color: '$textInverse',
+                background: '$warning',
+               
+                '&:hover': {
+                    color: '$warning',
+                    background: '$elementInteractionBackground',
+                },
+
+                '&:disabled': {
+                    border: '$muted',
+                    color: '$mutedInverse',
+                    background: '$mutedInverse',
+                    
+                    '&:hover': {
+                        color: '$mutedInverse',
+                        background: '$elementInteractionBackground',
+                    }
+                },
+            },
             danger: {
                 border: '1.2px solid $danger',
                 color: '$textInverse',

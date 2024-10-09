@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.20
+
+### Patch Changes
+
+- Added success and warning variants to Button component
+
 ## 1.2.19
 
 ### Patch Changes
