@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { InputContainer } from "../../styles/pages/input";
 import { InputProps } from "./types";
 
-export function Input(props: InputProps) {
-    return(
-        <>
-            <InputContainer {...props} css={{ '--fit': props.fit }}/>
-        </>
-    )
-}
+export const Input = forwardRef<HTMLInputElement, InputProps>((props, ref) => {
+    return (
+        <InputContainer ref={ref} {...props} css={{ '--fit': props.fit }} />
+    );
+});
+
+Input.displayName = 'Input';

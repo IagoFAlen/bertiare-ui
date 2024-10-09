@@ -1,5 +1,11 @@
 # @bertiare-ui/react
 
+## 1.2.17
+
+### Patch Changes
+
+- Added Forward Ref to Input component
+
 ## 1.2.16
 
 ### Patch Changes
