@@ -25,6 +25,17 @@ export const TextContainer = styled('p', {
             bold: {
                 fontWeight: '$bold',
             }
+        },
+        color: {
+            success: {
+                color: '$success',
+            },
+            warning: {
+                color: '$warning',
+            },
+            danger: {
+                color: '$danger',
+            }
         }
     }
 })

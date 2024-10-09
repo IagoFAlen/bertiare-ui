@@ -23,4 +23,18 @@ export const InputContainer = styled('input', {
     '&:placeholder': {
         color: '$muted',
     },
+
+    variants: {
+        color: {
+            success: {
+                color: '$success',
+            },
+            warning: {
+                color: '$warning',
+            },
+            danger: {
+                color: '$danger',
+            }
+        }
+    }
 })
